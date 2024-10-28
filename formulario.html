@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pedido de Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Pedido de Pizza</h1>
+        <form id="pizzaOrderForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="size">Tamaño de la Pizza:</label>
+            <select id="size" name="size">
+                <option value="pequeña">Pequeña</option>
+                <option value="mediana">Mediana</option>
+                <option value="grande">Grande</option>
+            </select>
+
+            <label for="toppings">Ingredientes:</label>
+            <div>
+                <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+                <label for="pepperoni">Pepperoni</label>
+                <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+                <label for="mushrooms">Champiñones</label>
+                <input type="checkbox" id="onions" name="toppings" value="onions">
+                <label for="onions">Cebolla</label>
+                <input type="checkbox" id="sausage" name="toppings" value="sausage">
+                <label for="sausage">Salchicha</label>
+                <input type="checkbox" id="bacon" name="toppings" value="bacon">
+                <label for="bacon">Bacon</label>
+            </div>
+
+            <label for="address">Dirección de Entrega:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </div>
+</body>
+</html>
+
