@@ -1,0 +1,12 @@
+#card{
+    margin:auto;
+    margin-top: 80px;
+    width: 300px;
+}
+#sucursales{
+    margin:auto;
+    margin-top: 80px;
+    width: 300px;
+    border: 2px solid rgb(214, 214, 214);
+    padding:20px;
+}
